@@ -1,0 +1,665 @@
+2015-03-15 01:35:35 Error: [MissingActionException] Action CategoriesController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'users',
+)
+Request URL: /cakephp/blog/categories/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-15 01:35:55 Error: [NotFoundException] Invalid user
+Request URL: /cakephp/blog/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-15 02:23:44 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/login
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 02:23:44 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:23:44 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:24:21 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:24:21 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:24:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:24:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:29:46 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:29:46 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:29:48 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:29:48 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:29:50 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:29:50 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:29:51 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:29:51 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:23 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:23 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:24 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:24 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:24 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:24 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:24 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:24 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:24 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:24 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:26 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:26 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:26 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:26 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:26 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:26 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:27 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:27 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:27 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:27 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:27 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:27 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:27 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:27 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:30:31 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:30:31 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:35:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:35:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:35:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:35:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:35:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:35:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:35:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:35:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:05 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:05 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:05 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:05 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:06 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:06 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:07 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:07 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:09 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:09 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:09 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:09 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:09 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:09 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:09 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:09 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:10 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:10 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/users/add
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:38:17 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 44]
+2015-03-15 02:38:17 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/posts
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 44, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 02:40:08 Error: Fatal Error (1): Class 'AuthComponent' not found in [/var/www/cakephp/blog/Controller/AppController.php, line 43]
+2015-03-15 02:40:08 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /cakephp/blog/posts
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/var/www/cakeph...', 43, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 03:17:01 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /cakephp/blog/users/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-15 03:20:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /cakephp/blog/users/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(User), Array)
+#5 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /opt/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(130): Model->find('first', Array)
+#7 /opt/cakephp/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('jose', '123')
+#8 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(762): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(607): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/blog/Controller/UsersController.php(113): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-15 03:38:27 Error: [MissingLayoutException] Layout file "Layouts/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/login.ctp',
+)
+Request URL: /cakephp/blog/users/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/View/View.php(514): View->_getLayoutFileName('login')
+#1 /opt/cakephp/lib/Cake/View/View.php(481): View->renderLayout('', 'login')
+#2 /opt/cakephp/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-15 03:41:11 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp/blog/Controller/AppController.php, line 73]
+2015-03-15 03:41:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/blog/users/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 73, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 73, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-15 03:41:38 Error: [MissingActionException] Action UsersController::posts() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'posts',
+)
+Request URL: /cakephp/blog/users/posts
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-15 03:45:51 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/cakephp/blog/View/Users/login.ctp, line 6]
+2015-03-15 03:45:51 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakephp/blog/users/login
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
