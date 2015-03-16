@@ -8,6 +8,11 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
+	public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow('add', 'logout');
+    }
+
 /**
  * Components
  *
@@ -102,25 +107,20 @@ class UsersController extends AppController {
 		return $this->redirect(array('action' => 'index'));
 	}
 
-	public function beforeFilter()
-	{
-		parent::beforeFilter();
-		$this->Auth->allow('add');
-	}
-
 	public function login()
 	{
-		if($this->Auth->login()) {
-			$this->redirect($this->Auth->redirect());
-		}
-		else 
-		{
-			$this->Session->setFlash(__('Invalid username or password, try again'));
+		$this->view = 'login';
+		if($this->request->is('post')) {
+			if($this->Auth->login()) {
+				return $this->redirect($this->Auth->loginRedirect);
+			}
+			$this->Session->setFlash('Invalid login data!');
 		}
 	}
 
-	public function logout() 
+	public function logout()
 	{
-		$this->redirect($this->Auth->logout());
+		$this->Auth->logout();
+		return $this->redirect($this->Auth->logout);
 	}
 }

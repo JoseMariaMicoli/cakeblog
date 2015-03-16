@@ -663,3 +663,124 @@ Stack Trace:
 #3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-03-15 16:42:54 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:01 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:02 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:02 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:02 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:03 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:44:15 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/cakephp/blog/posts
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-15 16:45:05 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/blog/
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /opt/cakephp/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /opt/cakephp/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /opt/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-15 16:47:00 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/blog/
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /opt/cakephp/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /opt/cakephp/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /opt/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-15 16:47:01 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakephp/blog/
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /opt/cakephp/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /opt/cakephp/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /opt/cakephp/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /opt/cakephp/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-15 17:12:18 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/cakephp/blog/Controller/PostsController.php, line 74]
+2015-03-15 17:12:18 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 74, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 74, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

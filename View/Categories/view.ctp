@@ -49,6 +49,7 @@
 		<th><?php echo __('Description'); ?></th>
 		<th><?php echo __('Body'); ?></th>
 		<th><?php echo __('Category Id'); ?></th>
+		<th><?php echo __('User Id'); ?></th>
 		<th><?php echo __('Created'); ?></th>
 		<th><?php echo __('Modified'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
@@ -60,6 +61,7 @@
 			<td><?php echo $post['description']; ?></td>
 			<td><?php echo $post['body']; ?></td>
 			<td><?php echo $post['category_id']; ?></td>
+			<td><?php echo $post['user_id']; ?></td>
 			<td><?php echo $post['created']; ?></td>
 			<td><?php echo $post['modified']; ?></td>
 			<td class="actions">
