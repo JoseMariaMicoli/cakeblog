@@ -784,3 +784,572 @@ Stack Trace:
 #3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-03-16 11:16:07 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/var/www/cakephp/blog/View/Posts/view.ctp, line 50]
+2015-03-16 11:16:07 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 50, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 50, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 11:16:38 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/cakephp/blog/View/Posts/view.ctp, line 45]
+2015-03-16 11:16:38 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 11:16:39 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/cakephp/blog/View/Posts/view.ctp, line 45]
+2015-03-16 11:16:39 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 11:16:39 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/cakephp/blog/View/Posts/view.ctp, line 45]
+2015-03-16 11:16:39 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 11:16:39 Error: Fatal Error (1): Call to a member function create() on a non-object in [/var/www/cakephp/blog/View/Posts/view.ctp, line 45]
+2015-03-16 11:16:39 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 45, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:51:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:51:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:51:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:51:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:51:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:51:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:54:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:54:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '1')
+#10 [internal function]: PostsController->view('1')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:54:21 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/blog/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-17 00:54:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 00:58:45 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:45 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:58:47 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:47 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:58:47 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:47 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:58:47 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:47 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:58:47 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:47 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:58:48 Error: Fatal Error (4): syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/cakephp/blog/Model/User.php, line 96]
+2015-03-17 00:58:48 Error: [FatalErrorException] syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 96, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 00:59:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:00:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Post), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Post), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /opt/cakephp/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /var/www/cakephp/blog/Controller/PostsController.php(51): Model->read(NULL, '2')
+#10 [internal function]: PostsController->view('2')
+#11 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-03-17 01:05:13 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:13 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:14 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:14 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:15 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:15 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:05:16 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/cakephp/blog/View/Posts/view.ctp, line 56]
+2015-03-17 01:05:16 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakephp/blog/posts/view/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 56, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-17 01:06:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.comment_id' in 'field list'
+Request URL: /cakephp/blog/users/view/1
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Comment...', Array)
+#2 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Comment...', false)
+#4 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(User), 'SELECT `Comment...', Array)
+#5 /opt/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(User), Object(Comment), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /opt/cakephp/lib/Cake/Model/Model.php(3022): DboSource->read(Object(User), Array)
+#7 /opt/cakephp/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /var/www/cakephp/blog/Controller/UsersController.php(45): Model->find('first', Array)
+#9 [internal function]: UsersController->view('1')
+#10 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
