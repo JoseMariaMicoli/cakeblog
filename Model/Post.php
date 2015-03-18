@@ -4,17 +4,12 @@ App::uses('AppModel', 'Model');
  * Post Model
  *
  * @property Category $Category
+ * @property Comment $Comment
  * @property User $User
  * @property Comment $Comment
+ * @property Tag $Tag
  */
 class Post extends AppModel {
-
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'title';
 
 /**
  * Validation rules
@@ -62,16 +57,6 @@ class Post extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'comment_id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
 		'user_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
@@ -95,6 +80,13 @@ class Post extends AppModel {
 		'Category' => array(
 			'className' => 'Category',
 			'foreignKey' => 'category_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Comment' => array(
+			'className' => 'Comment',
+			'foreignKey' => 'comment_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -130,10 +122,25 @@ class Post extends AppModel {
 	);
 
 
-
-	public function isOwnedBy($post, $user) 
-	{
-    	return $this->field('id', array('id' => $post, 'user_id' => $user)) !== false;
-	}
+/**
+ * hasAndBelongsToMany associations
+ *
+ * @var array
+ */
+	public $hasAndBelongsToMany = array(
+		'Tag' => array(
+			'className' => 'Tag',
+			'joinTable' => 'posts_tags',
+			'foreignKey' => 'post_id',
+			'associationForeignKey' => 'tag_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+		)
+	);
 
 }

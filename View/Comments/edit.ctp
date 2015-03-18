@@ -6,6 +6,7 @@
 		echo $this->Form->input('id');
 		echo $this->Form->input('user_id');
 		echo $this->Form->input('post_id');
+		echo $this->Form->input('image_id');
 		echo $this->Form->input('body');
 	?>
 	</fieldset>
@@ -21,5 +22,7 @@
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Posts'), array('controller' => 'posts', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Post'), array('controller' => 'posts', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Images'), array('controller' => 'images', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Image'), array('controller' => 'images', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

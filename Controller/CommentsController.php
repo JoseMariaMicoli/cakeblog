@@ -5,7 +5,6 @@ App::uses('AppController', 'Controller');
  *
  * @property Comment $Comment
  * @property PaginatorComponent $Paginator
- * @property SessionComponent $Session
  */
 class CommentsController extends AppController {
 
@@ -14,7 +13,7 @@ class CommentsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator');
 
 /**
  * index method
@@ -58,7 +57,8 @@ class CommentsController extends AppController {
 		}
 		$users = $this->Comment->User->find('list');
 		$posts = $this->Comment->Post->find('list');
-		$this->set(compact('users', 'posts'));
+		$images = $this->Comment->Image->find('list');
+		$this->set(compact('users', 'posts', 'images'));
 	}
 
 /**
@@ -85,7 +85,8 @@ class CommentsController extends AppController {
 		}
 		$users = $this->Comment->User->find('list');
 		$posts = $this->Comment->Post->find('list');
-		$this->set(compact('users', 'posts'));
+		$images = $this->Comment->Image->find('list');
+		$this->set(compact('users', 'posts', 'images'));
 	}
 
 /**

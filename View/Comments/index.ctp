@@ -6,6 +6,7 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('user_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('post_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('image_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('body'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
@@ -21,6 +22,9 @@
 		</td>
 		<td>
 			<?php echo $this->Html->link($comment['Post']['title'], array('controller' => 'posts', 'action' => 'view', $comment['Post']['id'])); ?>
+		</td>
+		<td>
+			<?php echo $this->Html->link($comment['Image']['title'], array('controller' => 'images', 'action' => 'view', $comment['Image']['id'])); ?>
 		</td>
 		<td><?php echo h($comment['Comment']['body']); ?>&nbsp;</td>
 		<td><?php echo h($comment['Comment']['created']); ?>&nbsp;</td>
@@ -56,5 +60,7 @@
 		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Posts'), array('controller' => 'posts', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Post'), array('controller' => 'posts', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Images'), array('controller' => 'images', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Image'), array('controller' => 'images', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

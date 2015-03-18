@@ -8,11 +8,6 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 
-	public function beforeFilter() {
-        parent::beforeFilter();
-        $this->Auth->allow('add', 'logout');
-    }
-
 /**
  * Components
  *
@@ -60,6 +55,8 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
 		}
+		$groups = $this->User->Group->find('list');
+		$this->set(compact('groups'));
 	}
 
 /**
@@ -84,6 +81,8 @@ class UsersController extends AppController {
 			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 			$this->request->data = $this->User->find('first', $options);
 		}
+		$groups = $this->User->Group->find('list');
+		$this->set(compact('groups'));
 	}
 
 /**
@@ -105,22 +104,5 @@ class UsersController extends AppController {
 			$this->Session->setFlash(__('The user could not be deleted. Please, try again.'));
 		}
 		return $this->redirect(array('action' => 'index'));
-	}
-
-	public function login()
-	{
-		$this->view = 'login';
-		if($this->request->is('post')) {
-			if($this->Auth->login()) {
-				return $this->redirect($this->Auth->loginRedirect);
-			}
-			$this->Session->setFlash('Invalid login data!');
-		}
-	}
-
-	public function logout()
-	{
-		$this->Auth->logout();
-		return $this->redirect($this->Auth->logoutRedirect);
 	}
 }

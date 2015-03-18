@@ -5,15 +5,11 @@ App::uses('AppModel', 'Model');
  *
  * @property User $User
  * @property Post $Post
+ * @property Image $Image
+ * @property Image $Image
+ * @property Post $Post
  */
 class Comment extends AppModel {
-
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'body';
 
 /**
  * Validation rules
@@ -74,6 +70,48 @@ class Comment extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+		),
+		'Image' => array(
+			'className' => 'Image',
+			'foreignKey' => 'image_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
 		)
 	);
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Image' => array(
+			'className' => 'Image',
+			'foreignKey' => 'comment_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Post' => array(
+			'className' => 'Post',
+			'foreignKey' => 'comment_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
 }
