@@ -1386,3 +1386,35 @@ Stack Trace:
 #1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-03-21 10:53:54 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/blog/posts
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-21 10:57:16 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cakephp/blog/Controller/PostsController.php, line 108]
+2015-03-21 10:57:16 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/blog/posts/delete/2
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 108, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 108, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-21 10:59:52 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/blog/posts/delete/2
+Stack Trace:
+#0 [internal function]: PostsController->delete('2')
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
