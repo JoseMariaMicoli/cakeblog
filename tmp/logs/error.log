@@ -1418,3 +1418,52 @@ Stack Trace:
 #3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-03-21 11:23:34 Error: [MissingTableException] Table gallery_albums for model Album was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'gallery_albums',
+  'class' => 'Album',
+  'ds' => 'default',
+)
+Request URL: /cakephp/blog/gallery
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Model/Model.php(3644): Model->setSource('albums')
+#1 /opt/cakephp/lib/Cake/Model/Model.php(827): Model->getDataSource()
+#2 /var/www/cakephp/blog/Plugin/Gallery/Controller/GalleryController.php(22): Model->__call('findAllByStatus', Array)
+#3 /var/www/cakephp/blog/Plugin/Gallery/Controller/GalleryController.php(22): Album->findAllByStatus('published')
+#4 [internal function]: GalleryController->index()
+#5 /opt/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GalleryController), Array)
+#6 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(GalleryController), Object(CakeRequest))
+#8 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-03-22 09:48:55 Error: [MissingControllerException] Controller class RssController could not be found.
+Exception Attributes: array (
+  'class' => 'RssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/blog/rss/index.ctp
+Stack Trace:
+#0 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-22 09:49:10 Error: [MissingActionException] Action PostsController::rss() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'rss',
+)
+Request URL: /cakephp/blog/posts/rss
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-22 09:49:16 Error: [MissingActionException] Action PostsController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index.ctp',
+)
+Request URL: /cakephp/blog/posts/index.ctp
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
