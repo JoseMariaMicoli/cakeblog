@@ -32,13 +32,6 @@ class PostsController extends AppController {
         	return $this->set(compact('posts'));
     	}
 
-    	// this is not an Rss request, so deliver
-    	// data used by website's interface
-    	$this->paginate['Post'] = array(
-        	'order' => 'Post.created DESC',
-        	'limit' => 10
-    	);
-
 		$this->Post->recursive = 0;
 		$this->set('posts', $this->Paginator->paginate());
 		$posts = $this->paginate();
