@@ -1467,3 +1467,36 @@ Stack Trace:
 #1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-03-22 23:27:13 Error: [MissingActionException] Action PostsController::rss() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'rss',
+)
+Request URL: /cakephp/blog/posts/rss/index.rss
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-22 23:27:20 Error: Fatal Error (1): Call to a member function isRss() on a non-object in [/var/www/cakephp/blog/Controller/PostsController.php, line 25]
+2015-03-22 23:27:20 Error: [FatalErrorException] Call to a member function isRss() on a non-object
+Request URL: /cakephp/blog/posts/index.rss
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 25, Array)
+#2 /opt/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 25, Array)
+#3 /opt/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-22 23:28:26 Error: [MissingViewException] View file "Posts/rss/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/rss/index.ctp',
+)
+Request URL: /cakephp/blog/posts/index.rss
+Stack Trace:
+#0 /opt/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/cakephp/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/cakephp/blog/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

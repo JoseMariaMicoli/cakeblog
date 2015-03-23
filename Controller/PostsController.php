@@ -13,16 +13,36 @@ class PostsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator', 'Session', 'RequestHandler');
+
+	public $helpers = array('Text');
 
 /**
  * index method
  *
  * @return void
  */
-	public function index() {
+	public function index() 
+	{
+		if ($this->RequestHandler->isRss() ) {
+        	$posts = $this->Post->find(
+            	'all',
+            	array('limit' => 20, 'order' => 'Post.created DESC')
+        	);
+        	return $this->set(compact('posts'));
+    	}
+
+    	// this is not an Rss request, so deliver
+    	// data used by website's interface
+    	$this->paginate['Post'] = array(
+        	'order' => 'Post.created DESC',
+        	'limit' => 10
+    	);
+
 		$this->Post->recursive = 0;
 		$this->set('posts', $this->Paginator->paginate());
+		$posts = $this->paginate();
+    	$this->set(compact('posts'));
 	}
 
 /**
